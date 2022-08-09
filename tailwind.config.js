@@ -9,6 +9,7 @@ module.exports = {
         colors: {
             primary: '#0A0D14',
             secondary: '#fff',
+            third: '#fafafa'
         },
         fontFamily: {
             sans: ['Albert Sans', 'sans-serif'],
