@@ -66,38 +66,35 @@
                 <div class="w-full md:w-1/2 px-4  ">
                     <div class="flex flex-col  ">
                         <div class="w-3/4 p-4 shadow-lg rounded-md mb-8">
-                            <div class="flex">
+                            <div class="flex items-center">
                                 <div class="rounded-md p-4">
                                     <i class="fa-solid fa-pen-ruler text-6xl pr-4 text-green-500"></i>
                                 </div>
                                 <div class="flex flex-col">
                                     <h3 class="text-primary text-xl font-semibold">Website Design</h3>
-                                    <p class="text-sm font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Vel, consequatur?</p>
+                                    <p class="text-sm font-light">Desain Web atau Mobile Apps menggunakan Aplikasi Figma</p>
                                 </div>
                             </div>
                         </div>
                         <div class="w-3/4 p-4 shadow-lg rounded-md mb-8">
-                            <div class="flex">
+                            <div class="flex items-center">
                                 <div class="rounded-md p-4">
                                     <i class="fa-solid fa-desktop text-6xl pr-4 text-yellow-300"></i>
                                 </div>
                                 <div class="flex flex-col">
                                     <h3 class="text-primary text-xl font-semibold">Website Developer</h3>
-                                    <p class="text-sm font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Vel, consequatur?</p>
+                                    <p class="text-sm font-light">Semua Website atau Web Service di bangun menggunakan PHP dan Framework Laravel</p>
                                 </div>
                             </div>
                         </div>
                         <div class="w-3/4 p-4 shadow-lg rounded-md mb-8">
-                            <div class="flex">
+                            <div class="flex items-center">
                                 <div class="rounded-md p-4">
                                     <i class="fa-solid fa-people-group text-6xl pr-4 text-orange-500"></i>
                                 </div>
                                 <div class="flex flex-col">
                                     <h3 class="text-primary text-xl font-semibold">Brand Identity</h3>
-                                    <p class="text-sm font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Vel, consequatur?</p>
+                                    <p class="text-sm font-light">Brand Identity didesain dengan Aplikasi Figma</p>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +130,7 @@
     {{-- awal section sosial media --}}
     <section id="sosmed" class="pt-28">
         <div class="container">
-            <div class="flex flex-wrap">
+            <div class="flex flex-wrap items-start">
                 <div class="w-full md:w-1/2 text-justify">
                     <h3 class="px-4 font-bold text-5xl mb-4">Tentang Saya!</h3>
                     <h5 class="text-lg font-light text-orange-500 px-4 mb-6">
@@ -180,8 +177,6 @@
                                 Rachlapg
                                 <div class="tooltip-arrow" data-popper-arrow></div>
                             </div>
-                            <a href=""></i></a>
-                            <a href=""></a>
                         </div>
                     </div>
                 </div>
@@ -190,4 +185,23 @@
         </div>
     </section>
     {{-- akhir section sosial media --}}
+
+    {{-- awal section produk unggulan --}}
+    <section id="produk" class="pt-28">
+        <div class="container">
+            <div class="flex flex-wrap items-center justify-between">
+                <div class="w-full md:w-1/2 px-4">
+                    <div class="mb-8">
+                        <h3 class="font-medium text-5xl mb-4">Produk Unggulan Saya</h3>
+                        <p class="text-base text-gray-500">Produk sudah teruji dan digunakan oleh klien</p>
+                    </div>
+                    <a href="" class="py-3 px-4 text-lg bg-orange-500 rounded shadow-md text-secondary">Cek Produk</a>
+                </div>
+                <div class="w-full md:w-1/2 px-4">
+                    <img src="images/rajartan.png" alt="" class="w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- akhir section produk unggulan --}}
 @endsection
