@@ -22,4 +22,18 @@
         </div>
     </section>
     <!-- akhir section search -->
+
+    {{-- awal section kategori tutorial --}}
+    <section id="kategory" class="pt-16">
+        <div class="container">
+            <div class="flex justify-center">
+                <div class="w-full px-4 text-center">
+                    <div class="">
+                        <a href="" class="text-xl text-gray-500 mx-4 hover:text-primary hover:font-bold">Semua</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- akhir section kategori tutorial --}}
 @endsection
