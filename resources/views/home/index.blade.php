@@ -7,13 +7,13 @@
             <div class="flex flex-wrap items-center">
                 <div class="w-full md:w-1/2 mx-4">
                     <div class="mb-10">
-                        <h1 class="text-gray-900 font-bold text-6xl"><span class="text-orange-500 font-light text-xl">Halo
+                        <h1 class="text-gray-900 font-bold text-6xl"><span class="text-orange-500 font-light text-xl">Hello
                                 Everyone,</span><br> Mari membuat sesuatu yang lebih baik setiap harinya</h1>
                     </div>
-                    <a href="" class="py-4 px-6 bg-orange-500 text-secondary mt-5 text-xl rounded-md">Hubungi Saya</a>
+                    <a href="mailto:rajartan201319@gmail.com" class="py-4 px-6 bg-orange-500 text-secondary mt-5 text-xl rounded-md">Hubungi Saya</a>
                 </div>
                 <div class="w-full mx-4 ml-auto flex justify-between items-center md:w-1/3">
-                    <img src="images/rajartan.png" alt="Rajartan Logo" class="w-full">
+                    <img src="images/rajartan.png" alt="Rajartan Logo" class="w-full animate-pulse ease-in-out duration-300">
                 </div>
             </div>
         </div>
@@ -83,14 +83,15 @@
                                 </div>
                                 <div class="flex flex-col">
                                     <h3 class="text-primary text-xl font-semibold">Website Developer</h3>
-                                    <p class="text-sm font-light">Semua Website atau Web Service di bangun menggunakan PHP dan Framework Laravel</p>
+                                    <p class="text-sm font-light">Semua Website atau Web Service di bangun menggunakan PHP
+                                        dan Framework Laravel</p>
                                 </div>
                             </div>
                         </div>
                         <div class="w-3/4 p-4 shadow-lg rounded-md mb-8">
                             <div class="flex items-center">
                                 <div class="rounded-md p-4">
-                                    <i class="fa-solid fa-people-group text-6xl pr-4 text-orange-500"></i>
+                                    <i class="fa-solid fa-building-user text-6xl pr-4 text-orange-500"></i>
                                 </div>
                                 <div class="flex flex-col">
                                     <h3 class="text-primary text-xl font-semibold">Brand Identity</h3>
@@ -145,15 +146,15 @@
                     <div class="flex flex-col">
                         <div>
                             <h3 class="text-4xl font-semibold px-4 mb-4 text-right">Mari Berteman</h3>
-                            <p class="px-4 text-base text-gray-500 text-right">Lorem, ipsum dolor sit amet consectetur
+                            <p class="px-4 text-base text-gray-500 text-justify">Lorem, ipsum dolor sit amet consectetur
                                 adipisicing elit. Fuga cupiditate corrupti repudiandae pariatur aspernatur harum laborum
                                 eius voluptatum placeat aliquam, totam dignissimos culpa obcaecati hic dicta ipsam, officiis
                                 quasi quod?</p>
                         </div>
                         <div class="px-4 text-right mt-8">
                             <a href="" data-tooltip-target="youtube" data-tooltip-placement="bottom" type="button"
-                                class="hover:bg-orange-500 rounded-md border border-spacing-4" ><i
-                                class="fa-brands fa-youtube text-gray-500 text-3xl p-2 hover:text-secondary"></i></a>
+                                class="hover:bg-orange-500 rounded-md border border-spacing-4"><i
+                                    class="fa-brands fa-youtube text-gray-500 text-3xl p-2 hover:text-secondary"></i></a>
                             <div id="youtube" role="tooltip"
                                 class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
                                 Rajartan
@@ -161,18 +162,27 @@
                             </div>
 
                             <a href="" data-tooltip-target="instagram" data-tooltip-placement="bottom" type="button"
-                                class="hover:bg-orange-500 rounded-md border border-spacing-4" ><i
-                                class="fa-brands fa-instagram text-gray-500 text-3xl p-2 hover:text-secondary"></i></a>
+                                class="hover:bg-orange-500 rounded-md border border-spacing-4"><i
+                                    class="fa-brands fa-instagram text-gray-500 text-3xl p-2 hover:text-secondary"></i></a>
                             <div id="instagram" role="tooltip"
                                 class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
                                 Rajartan
                                 <div class="tooltip-arrow" data-popper-arrow></div>
                             </div>
 
-                            <a href="" data-tooltip-target="github" data-tooltip-placement="bottom" type="button"
-                                class="hover:bg-orange-500 rounded-md border border-spacing-4" ><i
-                                class="fa-brands fa-github text-gray-500 text-3xl p-2 hover:text-secondary"></i></a>
+                            <a href="" data-tooltip-target="github" data-tooltip-placement="bottom"
+                                type="button" class="hover:bg-orange-500 rounded-md border border-spacing-4"><i
+                                    class="fa-brands fa-github text-gray-500 text-3xl p-2 hover:text-secondary"></i></a>
                             <div id="github" role="tooltip"
+                                class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                                Rajartan
+                                <div class="tooltip-arrow" data-popper-arrow></div>
+                            </div>
+
+                            <a href="" data-tooltip-target="discord" data-tooltip-placement="bottom"
+                                type="button" class="hover:bg-orange-500 rounded-md border border-spacing-4">
+                                <i class="fa-brands fa-discord text-gray-500 text-3xl p-2 hover:text-secondary"></i></a>
+                            <div id="discord" role="tooltip"
                                 class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
                                 Rachlapg
                                 <div class="tooltip-arrow" data-popper-arrow></div>
@@ -195,7 +205,8 @@
                         <h3 class="font-medium text-5xl mb-4">Produk Unggulan Saya</h3>
                         <p class="text-base text-gray-500">Produk sudah teruji dan digunakan oleh klien</p>
                     </div>
-                    <a href="" class="py-3 px-4 text-lg bg-orange-500 rounded shadow-md text-secondary">Cek Produk</a>
+                    <a href="" class="py-3 px-4 text-lg bg-orange-500 rounded shadow-md text-secondary">Cek
+                        Produk</a>
                 </div>
                 <div class="w-full md:w-1/2 px-4">
                     <img src="images/rajartan.png" alt="" class="w-full">
@@ -204,4 +215,25 @@
         </div>
     </section>
     {{-- akhir section produk unggulan --}}
+
+    {{-- awal section kontak --}}
+    <section id="kontak" class="pt-28">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4">
+                    <div class="flex items-center bg-orange-500 py-20 rounded">
+                        <div class="text-left pl-8">
+                            <p class="text-lg text-secondary">Apakah ada yang bisa saya bantu?</p>
+                            <h3 class="text-5xl font-medium text-secondary">Saya siap membantu anda</h3>
+                        </div>
+                        <div class="mx-auto">
+                            <a class="py-4 px-5 bg-secondary rounded shadow-md-light  text-center text-xl font-bold mx-auto text-orange-500" role="button"
+                            href="mailto:rajartan201319@gmail.com">Hubungi Saya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- akhir section kontak --}}
 @endsection
