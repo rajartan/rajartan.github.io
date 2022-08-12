@@ -11,8 +11,4 @@ class HomeController extends Controller
             "title" => "Halaman Utama"
         ]);
     }
-
-    public function tutorial() {
-        "title"
-    }
 }

@@ -2,6 +2,8 @@
 
 namespace Database\Seeders;
 
+use App\Models\Category;
+use App\Models\Tutorial;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -13,6 +15,18 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        Tutorial::factory(20)->create();
+        Category::create([
+            "name" => "HTML",
+            "slug" => "html"
+        ]);
+        Category::create([
+            "name" => "PHP",
+            "slug" => "php"
+        ]);
+        Category::create([
+            "name" => "Laravel",
+            "slug" => "laravel"
+        ]);
     }
 }

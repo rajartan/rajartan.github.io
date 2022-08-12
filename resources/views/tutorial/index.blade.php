@@ -28,8 +28,11 @@
         <div class="container">
             <div class="flex justify-center">
                 <div class="w-full px-4 text-center">
-                    <div class="">
+                    <div>
                         <a href="" class="text-xl text-gray-500 mx-4 hover:text-primary hover:font-bold">Semua</a>
+                        @foreach ($categories as $category)
+                        <a href="/tutorial/{{ $category->slug }}" class="text-xl text-gray-500 mx-4 hover:text-primary hover:font-bold">{{ $category->name }}</a>
+                        @endforeach
                     </div>
                 </div>
             </div>
@@ -42,15 +45,19 @@
     <section id="card" class="pt-28">
         <div class="container">
             <div class="flex flex-wrap justify-start">
-                <div class="w-full md:w-1/3 px-4">
-                    <div class="rounded shadow-lg">
-                        <div class="relative">
-                            <a href="" class="absolute px-2 py-1 rounded-t rounded-r bg-orange-500 text-secondary hover:bg-primary hover:text-orange-500">HTML</a>
-                            <img src="images/rajartan.png" alt="">
-                        </div>
-                        <h5 class="text-primary text-base p-4 truncate">1. Pengenalan HTML Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, magnam? Ad sit veniam vel voluptate sequi eligendi minima repudiandae a.</h5>
+                @foreach ($tutorials as $tutorial)
+                <div class="w-full md:w-1/4 relative px-4 mb-8">
+                    <a href="/category/{{ $tutorial->category->slug }}" class="absolute top-0 py-1 text-secondary px-3 bg-orange-500 rounded-r rounded-t-none shadow">{{ $tutorial->category->name }}</a>
+                        <a href="" class="w-full">
+                            <div class="rounded shadow-md overflow-hidden">
+                                <img src="images/rajartan.png" alt="">
+                                <h5 class="text-gray-500 text-base p-4 truncate">{{ $tutorial->name }}<h5>
+                            </div>
+                        </a>
                     </div>
-                </div>
+                @endforeach
+
+
             </div>
         </div>
     </section>

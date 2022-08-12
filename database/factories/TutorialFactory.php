@@ -14,7 +14,10 @@ class TutorialFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'name' => $this->faker->sentence(mt_rand(2,8)),
+            'slug' => $this->faker->slug(),
+            'image' => 'images/rajartan.png',
+            'category_id' => mt_rand(1,3)
         ];
     }
 }
