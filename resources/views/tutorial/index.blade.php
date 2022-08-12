@@ -36,4 +36,23 @@
         </div>
     </section>
     {{-- akhir section kategori tutorial --}}
+
+
+    {{-- awal section card --}}
+    <section id="card" class="pt-28">
+        <div class="container">
+            <div class="flex flex-wrap justify-start">
+                <div class="w-full md:w-1/3 px-4">
+                    <div class="rounded shadow-lg">
+                        <div class="relative">
+                            <a href="" class="absolute px-2 py-1 rounded-t rounded-r bg-orange-500 text-secondary hover:bg-primary hover:text-orange-500">HTML</a>
+                            <img src="images/rajartan.png" alt="">
+                        </div>
+                        <h5 class="text-primary text-base p-4 truncate">1. Pengenalan HTML Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, magnam? Ad sit veniam vel voluptate sequi eligendi minima repudiandae a.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- akhir section card --}}
 @endsection
