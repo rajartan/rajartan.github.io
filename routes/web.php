@@ -20,3 +20,6 @@ Route::get('/', [HomeController::class, 'index']);
 
 
 Route::get('/tutorial', [TutorialController::class, 'index']);
+
+// Admin Dashboard
+// Route::get('/dashboard', )
