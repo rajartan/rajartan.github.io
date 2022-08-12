@@ -15,6 +15,10 @@ class CreateTutorialsTable extends Migration
     {
         Schema::create('tutorials', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('category_id');
+            $table->string('name');
+            $table->string('slug')->unique();
+            $table->string('image');
             $table->timestamps();
         });
     }
