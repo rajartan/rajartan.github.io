@@ -1,3 +1,3 @@
-<footer class="w-full bg-white text-right p-4">
-    Built by <a target="_blank" href="https://davidgrzyb.com" class="underline">David Grzyb</a>.
+<footer class="w-full bg-white text-right p-4 mt-36">
+    <p> Built by <a target="_blank" href="https://davidgrzyb.com" class="underline">RAJARTAN</a>.</p>
 </footer>

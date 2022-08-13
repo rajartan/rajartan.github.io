@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\AdminTutorialController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\TutorialController;
 use Illuminate\Support\Facades\Route;
@@ -22,4 +24,5 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/tutorial', [TutorialController::class, 'index']);
 
 // Admin Dashboard
-// Route::get('/dashboard', )
+Route::get('/dashboard', [DashboardController::class, 'index']);
+Route::get('/dashboard/tutorial', [AdminTutorialController::class, 'index']);
