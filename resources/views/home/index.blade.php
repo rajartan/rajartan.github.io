@@ -2,18 +2,18 @@
 
 @section('content')
     {{-- awal section jumbotron --}}
-    <section id="jumbotron" class="h-[500px] bg-secondary">
+    <section id="jumbotron" class=" bg-secondary h-[660px]">
         <div class="container">
-            <div class="flex flex-wrap items-center">
-                <div class="w-full md:w-1/2 mx-4">
-                    <div class="mb-10">
+            <div class="flex flex-wrap justify-center items-center -mt-32">
+                <div class="w-full md:w-1/2 px-4">
+                    <div class="mb-8">
                         <h1 class="text-gray-900 font-bold text-6xl"><span class="text-orange-500 font-light text-xl">Hello
                                 Everyone,</span><br> Mari membuat sesuatu yang lebih baik setiap harinya</h1>
                     </div>
                     <a href="mailto:rajartan201319@gmail.com" class="py-4 px-6 bg-orange-500 text-secondary mt-5 text-xl rounded-md">Hubungi Saya</a>
                 </div>
-                <div class="w-full mx-4 ml-auto flex justify-between items-center md:w-1/3">
-                    <img src="images/rajartan.png" alt="Rajartan Logo" class="w-full animate-pulse ease-in-out duration-300">
+                <div class="w-full md:w-1/2 px-4 mb-32">
+                    <img src="images/rachel.png" alt="Rajartan Logo" class="w-full rounded-full animate-none ease-in-out duration-300">
                 </div>
             </div>
         </div>
@@ -60,8 +60,8 @@
     <section id="projek" class="pt-28">
         <div class="container">
             <div class="flex justify-between">
-                <div class="w-full md:w-1/2 px-4  ">
-                    <div class="flex flex-col  ">
+                <div class="w-full md:w-1/2 px-4 ">
+                    <div class="flex flex-col ">
                         <div class="w-3/4 p-4 shadow-lg rounded-md mb-8">
                             <div class="flex items-center">
                                 <div class="rounded-md p-4">
