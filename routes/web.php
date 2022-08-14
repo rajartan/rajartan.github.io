@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\AdminDashboardController;
+use App\Http\Controllers\AdminProfileController;
 use App\Http\Controllers\AdminTutorialController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\TutorialController;
@@ -23,4 +25,10 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/tutorial', [TutorialController::class, 'index']);
 
 // Admin Dashboard
-Route::get('/dashboard/tutorial', [AdminTutorialController::class, 'index']);
+    Route::get('/admin/dashboard/', [AdminDashboardController::class, 'index']);
+
+//
+Route::get('/admin/tutorial', [AdminTutorialController::class, 'index']);
+
+// Profile
+Route::resource('/admin/profile', AdminProfileController::class);
