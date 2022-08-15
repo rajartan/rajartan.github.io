@@ -26,6 +26,7 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/tutorials', [TutorialController::class, 'index']);
 
 // Category
+Route::get('/admin/categories', [CategoryController::class, 'index']);
 Route::get('categories/{category:slug}', [CategoryController::class, 'show']);
 
 // Admin Dashboard
