@@ -3,6 +3,7 @@
 use App\Http\Controllers\AdminDashboardController;
 use App\Http\Controllers\AdminProfileController;
 use App\Http\Controllers\AdminTutorialController;
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\TutorialController;
 use Illuminate\Support\Facades\Route;
@@ -21,8 +22,11 @@ use Illuminate\Support\Facades\Route;
 // home
 Route::get('/', [HomeController::class, 'index']);
 
+// Tutorial
+Route::get('/tutorials', [TutorialController::class, 'index']);
 
-Route::get('/tutorial', [TutorialController::class, 'index']);
+// Category
+Route::get('categories/{category:slug}', [CategoryController::class, 'show']);
 
 // Admin Dashboard
     Route::get('/admin/dashboard/', [AdminDashboardController::class, 'index']);

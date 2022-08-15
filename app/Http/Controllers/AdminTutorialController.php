@@ -15,7 +15,7 @@ class AdminTutorialController extends Controller
     public function index()
     {
         return view('admin.tutorial.index', [
-            "tutorials" => Tutorial::all()
+            "tutorials" => Tutorial::latest()->paginate(10)
         ]);
     }
 

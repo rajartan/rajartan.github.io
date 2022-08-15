@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
+use App\Models\Tutorial;
 use Illuminate\Http\Request;
 
 class CategoryController extends Controller
@@ -14,7 +15,6 @@ class CategoryController extends Controller
      */
     public function index()
     {
-
     }
 
     /**
@@ -46,7 +46,9 @@ class CategoryController extends Controller
      */
     public function show(Category $category)
     {
-        //
+        return view('tutorials.index', [
+            "tutorials" => $category->tutorials->load('category'),
+        ]);
     }
 
     /**
